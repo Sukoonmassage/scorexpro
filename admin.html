@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ScoreX Pro — Admin</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="topbar"><div class="brand"><div class="logo-mark">S</div><div><b>ScoreX</b> <span>Pro</span><small>ADMIN PANEL</small></div></div><nav><a href="index.html">← Website</a></nav></header>
+<main class="admin">
+<div class="section-head"><div><p class="eyebrow">CONTROL CENTER</p><h1>Admin Dashboard</h1></div><span class="secure">● Secure area</span></div>
+<div class="stats"><div><b>248</b><span>Total users</span></div><div><b>32</b><span>Live matches</span></div><div><b>18</b><span>Competitions</span></div><div><b>99.9%</b><span>Uptime target</span></div></div>
+<section class="panel"><div class="section-head"><h2>Users</h2><button class="btn small" onclick="addUser()">Add User</button></div>
+<table><thead><tr><th>ID</th><th>Name</th><th>Status</th><th>Role</th><th>Action</th></tr></thead><tbody id="users"></tbody></table></section>
+<section class="panel"><h2>Match/API settings</h2><p class="muted">Connect your licensed sports-data provider in the backend. Keep API keys server-side; never place secret keys in browser JavaScript.</p><div class="notice">This admin demo intentionally has no betting wallet, wagering points, casino controls, or gambling-credit functions.</div></section>
+</main>
+<script src="admin.js"></script></body></html>
